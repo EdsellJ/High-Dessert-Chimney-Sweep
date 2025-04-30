@@ -7,7 +7,7 @@ export default function Services() {
           <div className="text-center">
             <h1 className="text-4xl font-bold text-gray-900 mb-6">Our Services</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive solutions to help your business grow and succeed in the digital age.
+              Professional chimney and ventilation services to keep your home safe, efficient, and well-maintained.
             </p>
           </div>
         </div>
@@ -19,40 +19,40 @@ export default function Services() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: "Digital Transformation",
-                description: "Modernize your business with cutting-edge technology solutions and digital strategies.",
-                icon: "🔄",
-                features: ["Cloud Migration", "Process Automation", "Digital Strategy"]
+                title: "Chimney Cleaning",
+                description: "Professional chimney sweeping to remove creosote buildup, debris, and blockages for safer operation.",
+                icon: "🧹",
+                features: ["Creosote Removal", "Soot Cleanup", "Blockage Clearing", "Prevent Chimney Fires"]
               },
               {
-                title: "Web Development",
-                description: "Create stunning, responsive websites and web applications that engage your audience.",
-                icon: "🌐",
-                features: ["Custom Websites", "E-commerce Solutions", "Web Applications"]
+                title: "Fireplace & Wood Stove Service",
+                description: "Comprehensive maintenance and service for all types of fireplaces, wood stoves, and inserts.",
+                icon: "🔥",
+                features: ["Efficiency Optimization", "Component Replacement", "Seal Improvement", "Performance Testing"]
               },
               {
-                title: "Mobile Solutions",
-                description: "Develop powerful mobile applications that keep your business accessible anywhere.",
-                icon: "📱",
-                features: ["iOS Apps", "Android Apps", "Cross-platform Solutions"]
+                title: "Inspection & Repair",
+                description: "Thorough inspections and skilled repairs to maintain the integrity and safety of your chimney system.",
+                icon: "🔍",
+                features: ["Level 1-2 Inspections", "Crack Repair", "Crown Sealing", "Flashing Repair"]
               },
               {
-                title: "Cloud Services",
-                description: "Leverage the power of cloud computing to scale your business efficiently.",
-                icon: "☁️",
-                features: ["Cloud Hosting", "Data Storage", "Serverless Solutions"]
+                title: "Dryer Vent Cleaning",
+                description: "Remove lint buildup from your dryer vents to improve efficiency, reduce drying time, and prevent fire hazards. Prices starting at $179",
+                icon: "👕",
+                features: ["Reduced Fire Risk", "Improved Efficiency", "Lower Energy Bills", "Extended Appliance Life"]
               },
               {
-                title: "Cybersecurity",
-                description: "Protect your business with advanced security solutions and threat prevention.",
-                icon: "🔒",
-                features: ["Security Audits", "Threat Detection", "Data Protection"]
+                title: "Chimney Caps & Dampers",
+                description: "Installation and repair of chimney caps and dampers to keep out animals, debris, and water.",
+                icon: "🏠",
+                features: ["Animal Guard", "Spark Prevention", "Rain Protection", "Downdraft Prevention"]
               },
               {
-                title: "Consulting",
-                description: "Get expert guidance to make informed decisions about your technology investments.",
-                icon: "💼",
-                features: ["IT Strategy", "Technology Assessment", "Digital Roadmap"]
+                title: "Masonry Repairs",
+                description: "Expert repair of brick, stone, and mortar to restore the structural integrity and appearance of your chimney.",
+                icon: "🧱",
+                features: ["Brick Replacement", "Tuckpointing", "Waterproofing", "Structural Reinforcement"]
               }
             ].map((service, index) => (
               <div key={index} className="bg-white rounded-xl shadow-sm hover:shadow-lg transition-shadow p-6">
@@ -76,12 +76,12 @@ export default function Services() {
       {/* CTA Section */}
       <section className="py-20 bg-gray-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
+          <h2 className="text-3xl font-bold mb-4">Ready to Schedule Your Chimney Service?</h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Let&apos;s discuss how we can help transform your business with our services.
+            Keep your home safe and your heating systems operating efficiently with our professional chimney and vent services.
           </p>
           <button className="bg-white text-gray-900 px-8 py-3 rounded-full text-lg font-semibold hover:bg-gray-100 transition-colors">
-            Schedule a Consultation
+            Schedule an Appointment
           </button>
         </div>
       </section>

@@ -32,7 +32,7 @@ export default function Contact() {
           <div className="text-center">
             <h1 className="text-4xl font-bold text-gray-900 mb-6">Contact Us</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Get in touch with us to learn how we can help transform your business.
+              Get in touch with us to learn how we can help you with your fireplace and chimney needs.
             </p>
           </div>
         </div>
@@ -52,7 +52,7 @@ export default function Contact() {
                   </div>
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold text-gray-900">Address</h3>
-                    <p className="text-gray-600">123 Business Street<br />New York, NY 10001</p>
+                    <p className="text-gray-600">Apple Valley, CA 92307</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -61,7 +61,7 @@ export default function Contact() {
                   </div>
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold text-gray-900">Phone</h3>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
+                    <p className="text-gray-600">+1 (760) 247-4958</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -70,7 +70,7 @@ export default function Contact() {
                   </div>
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold text-gray-900">Email</h3>
-                    <p className="text-gray-600">contact@yourcompany.com</p>
+                    <p className="text-gray-600">Lexi@hdcs.services</p>
                   </div>
                 </div>
               </div>
