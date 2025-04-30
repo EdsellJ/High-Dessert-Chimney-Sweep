@@ -17,6 +17,10 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const handleLinkClick = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${
       isScrolled 
@@ -26,7 +30,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0 h-full flex items-center">
-            <Link href="/" className="h-[90%] flex items-center">
+            <Link href="/" className="h-[90%] flex items-center" onClick={handleLinkClick}>
               <Image 
                 src="/logo.png" 
                 alt="High Desert Chimney Sweep Logo" 
@@ -125,24 +129,28 @@ const Navbar = () => {
             <Link 
               href="/about" 
               className="block text-gray-900 hover:text-gray-600 px-3 py-2 rounded-md text-base font-medium transition-colors"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
               About Us
             </Link>
             <Link 
               href="/services" 
               className="block text-gray-900 hover:text-gray-600 px-3 py-2 rounded-md text-base font-medium transition-colors"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
               Services
             </Link>
             <Link 
               href="/service-area" 
               className="block text-gray-900 hover:text-gray-600 px-3 py-2 rounded-md text-base font-medium transition-colors"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
               Service Area
             </Link>
             <Link 
               href="/contact" 
               className="block text-gray-900 hover:text-gray-600 px-3 py-2 rounded-md text-base font-medium transition-colors"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
               Contact Us
             </Link>

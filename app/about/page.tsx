@@ -103,7 +103,7 @@ export default function About() {
               <div className="lg:col-span-2">
                 <h3 className="text-2xl font-semibold text-gray-900 mb-4">Expert Technicians You Can Trust</h3>
                 <p className="text-gray-600 mb-4">
-                  Our team consists of highly trained, CSIA-certified technicians with decades of combined experience. Many of our staff members have been with us for over 15 years, developing deep expertise in all aspects of chimney maintenance, repair, and inspection.
+                  Our team consists of highly trained, CSIA-certified technicians with decades of combined experience. Many of our staff members have many years of experience and a deep expertise in all aspects of chimney maintenance, repair, and inspection.
                 </p>
                 <p className="text-gray-600 mb-4">
                   We take pride in our thorough knowledge of building codes, safety standards, and the unique challenges of desert climate homes. Our technicians undergo continuous education to stay current with the latest techniques and safety protocols in the industry.
