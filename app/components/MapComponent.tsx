@@ -1,6 +1,5 @@
 'use client';
 
-import { useEffect } from 'react';
 import { MapContainer, TileLayer, Circle, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import '../leaflet.css';
@@ -11,7 +10,7 @@ const SERVICE_RADIUS = 40000; // 40km radius (approximately 25 miles)
 
 // Fix for Leaflet marker icons
 if (typeof window !== 'undefined') {
-  // @ts-ignore - _getIconUrl is indeed a property in the implementation
+  // @ts-expect-error - _getIconUrl is indeed a property in the implementation
   delete L.Icon.Default.prototype._getIconUrl;
   
   L.Icon.Default.mergeOptions({

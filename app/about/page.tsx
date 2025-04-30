@@ -22,13 +22,13 @@ export default function About() {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Heritage</h2>
               <p className="text-gray-600 mb-4">
-                Since 1981, High Desert Chimney Sweep has been the trusted name in chimney and fireplace services throughout the High Desert region. What began as a small, family-owned operation has grown into the area's most respected chimney service company, while maintaining our commitment to personalized customer care.
+                Since 1981, High Desert Chimney Sweep has been the trusted name in chimney and fireplace services throughout the High Desert region. What began as a small, family-owned operation has grown into the area&apos;s most respected chimney service company, while maintaining our commitment to personalized customer care.
               </p>
               <p className="text-gray-600 mb-4">
-                For over 40 years, our team has protected homes and families by ensuring the safety, efficiency, and proper function of chimneys, fireplaces, and venting systems. We've evolved with the industry, continually updating our techniques and equipment to provide the highest standard of service.
+                For over 40 years, our team has protected homes and families by ensuring the safety, efficiency, and proper function of chimneys, fireplaces, and venting systems. We&apos;ve evolved with the industry, continually updating our techniques and equipment to provide the highest standard of service.
               </p>
               <p className="text-gray-600">
-                Through decades of changing seasons, we've maintained our founding values: exceptional workmanship, honest service, and a dedication to customer safety that exceeds industry standards.
+                Through decades of changing seasons, we&apos;ve maintained our founding values: exceptional workmanship, honest service, and a dedication to customer safety that exceeds industry standards.
               </p>
             </div>
             <div className="relative rounded-lg overflow-hidden shadow-lg h-96">
@@ -109,7 +109,7 @@ export default function About() {
                   We take pride in our thorough knowledge of building codes, safety standards, and the unique challenges of desert climate homes. Our technicians undergo continuous education to stay current with the latest techniques and safety protocols in the industry.
                 </p>
                 <p className="text-gray-600">
-                  When you welcome a High Desert Chimney Sweep technician into your home, you're getting more than just a service provider – you're getting a trusted professional who cares about your home's safety and your family's well-being.
+                  When you welcome a High Desert Chimney Sweep technician into your home, you&apos;re getting more than just a service provider – you&apos;re getting a trusted professional who cares about your home&apos;s safety and your family&apos;s well-being.
                 </p>
               </div>
             </div>

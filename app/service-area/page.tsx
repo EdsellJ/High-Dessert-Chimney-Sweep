@@ -78,7 +78,7 @@ export default function ServiceArea() {
                 </ul>
               </div>
               <p className="text-gray-600 mt-6">
-                Not sure if we service your area? Contact us today and we'll be happy to discuss your specific location and needs.
+                Not sure if we service your area? Contact us today and we&apos;ll be happy to discuss your specific location and needs.
               </p>
             </div>
             <div>

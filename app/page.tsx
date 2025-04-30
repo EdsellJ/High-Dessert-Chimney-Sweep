@@ -98,7 +98,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold text-primary-700 mb-3">Official CSIA Certification</h3>
               <p className="text-gray-600 text-center">
-                Our team holds official certifications from the industry's leading authority in chimney safety.
+                Our team holds official certifications from the industry&apos;s leading authority in chimney safety.
               </p>
             </div>
             
@@ -106,7 +106,7 @@ export default function Home() {
               <div className="bg-white p-6 rounded-xl shadow-sm h-full">
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">Why CSIA Certification Matters</h3>
                 <p className="text-gray-600 mb-4">
-                  CSIA certification is the industry's most respected credential for chimney professionals. It ensures our technicians have mastered proper 
+                  CSIA certification is the industry&apos;s most respected credential for chimney professionals. It ensures our technicians have mastered proper 
                   inspection techniques, understand complex building codes, and can identify potential hazards that untrained eyes might miss.
                 </p>
                 <p className="text-gray-600 mb-4">
