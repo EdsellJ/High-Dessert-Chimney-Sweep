@@ -25,7 +25,7 @@ export default function Services() {
                 features: ["Creosote Removal", "Soot Cleanup", "Blockage Clearing", "Prevent Chimney Fires"]
               },
               {
-                title: "Fireplace & Wood Stove Service",
+                title: "Fireplace, Wood Stove, and Pelet StoveService",
                 description: "Comprehensive maintenance and service for all types of fireplaces, wood stoves, and inserts.",
                 icon: "🔥",
                 features: ["Efficiency Optimization", "Component Replacement", "Seal Improvement", "Performance Testing"]
@@ -47,12 +47,6 @@ export default function Services() {
                 description: "Installation and repair of chimney caps and dampers to keep out animals, debris, and water.",
                 icon: "🏠",
                 features: ["Animal Guard", "Spark Prevention", "Rain Protection", "Downdraft Prevention"]
-              },
-              {
-                title: "Masonry Repairs",
-                description: "Expert repair of brick, stone, and mortar to restore the structural integrity and appearance of your chimney.",
-                icon: "🧱",
-                features: ["Brick Replacement", "Tuckpointing", "Waterproofing", "Structural Reinforcement"]
               }
             ].map((service, index) => (
               <div key={index} className="bg-white rounded-xl shadow-sm hover:shadow-lg transition-shadow p-6">

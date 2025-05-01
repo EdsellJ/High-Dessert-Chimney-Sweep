@@ -30,7 +30,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0 h-full flex items-center">
-            <Link href="/" className="h-[90%] flex items-center" onClick={handleLinkClick}>
+            <Link href="/" className="h-[100%] flex items-center" onClick={handleLinkClick}>
               <Image 
                 src="/logo.png" 
                 alt="High Desert Chimney Sweep Logo" 

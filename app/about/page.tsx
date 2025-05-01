@@ -35,7 +35,7 @@ export default function About() {
               {/* Image placeholder - replace src with your actual image */}
               <div className="relative h-full w-full">
                 <Image 
-                  src="/sweeping.jpg" 
+                  src="/candid.jpg" 
                   alt="High Desert Chimney Sweep technician at work" 
                   fill
                   className="object-cover"
@@ -93,7 +93,7 @@ export default function About() {
                 {/* Team image placeholder */}
                 <div className="relative h-full w-full">
                   <Image
-                    src="/logo.png"
+                    src="/Banner.jpg"
                     alt="High Desert Chimney Sweep Team"
                     fill
                     className="object-contain bg-gray-50 p-4"

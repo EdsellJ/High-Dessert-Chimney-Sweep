@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 
 // Define the service area center (coordinates for the High Desert area, CA)
 const SERVICE_CENTER = [34.5362, -117.2928]; // Apple Valley/Victorville area
-const SERVICE_RADIUS = 40000; // 40km radius (approximately 25 miles)
+const SERVICE_RADIUS = 48500; // 40km radius (approximately 25 miles)
 
 export default function LeafletMap() {
   useEffect(() => {

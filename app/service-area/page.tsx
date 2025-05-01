@@ -53,6 +53,18 @@ export default function ServiceArea() {
                     <span className="text-primary-600 mr-2">✓</span>
                     Barstow
                   </li>
+                  <li className="flex items-center text-gray-600">
+                    <span className="text-primary-600 mr-2">✓</span>
+                    Big Bear
+                  </li>
+                  <li className="flex items-center text-gray-600">
+                    <span className="text-primary-600 mr-2">✓</span>
+                    Helendale
+                  </li>
+                  <li className="flex items-center text-gray-600">
+                    <span className="text-primary-600 mr-2">✓</span>
+                    Lake Arrowhead
+                  </li>
                 </ul>
                 <ul className="space-y-2">
                   <li className="flex items-center text-gray-600">
@@ -74,6 +86,14 @@ export default function ServiceArea() {
                   <li className="flex items-center text-gray-600">
                     <span className="text-primary-600 mr-2">✓</span>
                     Spring Valley Lake
+                  </li>
+                  <li className="flex items-center text-gray-600">
+                    <span className="text-primary-600 mr-2">✓</span>
+                    Wrightwood
+                  </li>
+                  <li className="flex items-center text-gray-600">
+                    <span className="text-primary-600 mr-2">✓</span>
+                    Crestline
                   </li>
                 </ul>
               </div>
