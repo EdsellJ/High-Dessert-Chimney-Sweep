@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Services() {
   return (
     <div className="min-h-screen bg-white">
@@ -74,9 +76,12 @@ export default function Services() {
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
             Keep your home safe and your heating systems operating efficiently with our professional chimney and vent services.
           </p>
-          <button className="bg-white text-gray-900 px-8 py-3 rounded-full text-lg font-semibold hover:bg-gray-100 transition-colors">
+          <Link 
+            href="/contact" 
+            className="inline-block bg-white text-gray-900 px-8 py-3 rounded-full text-lg font-semibold hover:bg-gray-100 transition-colors"
+          >
             Schedule an Appointment
-          </button>
+          </Link>
         </div>
       </section>
     </div>
