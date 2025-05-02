@@ -17,10 +17,6 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const handleLinkClick = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
-  };
-
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${
       isScrolled 
