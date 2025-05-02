@@ -25,7 +25,7 @@ export default function Services() {
                 features: ["Creosote Removal", "Soot Cleanup", "Blockage Clearing", "Prevent Chimney Fires"]
               },
               {
-                title: "Fireplace, Wood Stove, and Pelet StoveService",
+                title: "Fireplace, Wood Stove, and Pelet Stove Service",
                 description: "Comprehensive maintenance and service for all types of fireplaces, wood stoves, and inserts.",
                 icon: "🔥",
                 features: ["Efficiency Optimization", "Component Replacement", "Seal Improvement", "Performance Testing"]
